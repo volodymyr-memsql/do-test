@@ -1,6 +1,0 @@
-name: do-test
-services:
-- name: web
-  github:
-    repo: volodymyr-memsql/do-test
-    branch: main
