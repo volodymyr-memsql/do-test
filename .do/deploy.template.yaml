@@ -1,7 +1,7 @@
 spec:
   name: do-test
   services:
-  - name: web
+  - name: SingleStore cluster
     git:
       branch: main
       repo_clone_url: https://github.com/volodymyr-memsql/do-test.git
