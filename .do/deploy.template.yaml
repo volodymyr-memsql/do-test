@@ -2,9 +2,11 @@ spec:
   name: do-test
   services:
   - name: cluster-in-a-box
-    git:
-      branch: main
-      repo_clone_url: https://github.com/volodymyr-memsql/do-test.git
+    image:
+      registry_type: DOCKER_HUB
+      registry: singlestore
+      repository: cluster-in-a-box
+      tag: latest
     envs:
     - key: LICENSE_KEY
       type: SECRET
