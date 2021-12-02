@@ -7,7 +7,6 @@ spec:
       registry: singlestore
       repository: cluster-in-a-box
       tag: latest
-    run_command: 
     envs:
     - key: LICENSE_KEY
       type: SECRET
