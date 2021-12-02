@@ -1,4 +1,4 @@
-module github.com/digitalocean/sample-golang
+module github.com/volodymyr-memsql/do-test
 
 go 1.13
 
