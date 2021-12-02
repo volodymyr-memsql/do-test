@@ -7,7 +7,7 @@ spec:
       registry: singlestore
       repository: cluster-in-a-box
       tag: latest
-    run_command: docker run -i --init --name singlestore-ciab -e LICENSE_KEY=$LICENSE_KEY -e ROOT_PASSWORD=$ROOT_PASSWORD -p 3306:3306 -p 8080:8080 singlestore/cluster-in-a-box && docker start singlestore-ciab
+    run_command: docker start singlestore-ciab
     envs:
     - key: LICENSE_KEY
       type: SECRET
