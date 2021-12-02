@@ -5,3 +5,11 @@ spec:
     git:
       branch: main
       repo_clone_url: https://github.com/volodymyr-memsql/do-test.git
+    envs:
+    - key: LICENSE_KEY
+      type: SECRET
+      value:
+    - key: ROOT_PASSWORD
+      type: SECRET
+      value:
+
